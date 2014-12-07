@@ -1,7 +1,16 @@
+/*
+Author - Anurag Rana
+this method will arrange the letters in string in increasing order.
+Run the program and provide the input. 
+Input can be any string of characters or numbers.
+For example input abc and output will be the strings made up of all characters in it i.e. 'a','b' and 'c'.
+*/
+
+
 #include<stdio.h>
 #include<string.h>
 #include<malloc.h>
-//this method will arrange the letters in string in increasing order.
+
 char* findMinimum(char *str1,int length)
 {
 	//char str[length];
